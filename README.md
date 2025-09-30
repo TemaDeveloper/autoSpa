@@ -1,35 +1,9 @@
-# Spa Bistro Car Wash
+# Anytime Detailer
 
-https://spabistro.herokuapp.com
+https://auto-spa-beige.vercel.app/
 
 ## Description
-A carwash app that allows customers to setup a profile and select a membership plan to add their car to. 
-
-## Tech Stack
-* Express
-* Javascript
-* jQuery
-* HTML5/CSS3
-* MongoDB
-* Heroku
-
-## API
-* https://spabistro.herokuapp.com/api/users
-* https://spabistro.herokuapp.com/api/testimonies
-* Allows for Create, Read, Update, Delete on both APIs
-
-## User Stories
-
-1. User should be able to login to app
-2. User should be able to post a testimony
-3. User shoud be able to edit and delete a testimony
-4. User should be able to register for a new account
-5. User should be able to submit a contact message
-6. App should show testimonies on home page
-
+A carwash & detailing app that allows user to contact the auto spa via Formspree service.
 
 ## Screenshots
-![Home Page](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/autospabistrohomepage.png "Home Page")
-![Login/Register Page](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/autospabistrologin.png
- "Title")
-![Account](https://github.com/tambriakemp/autoSpaBistro/blob/master/public/images/autospabistroprofile.png "Title")
+<img width="1870" height="5199" alt="Screenshot 2025-09-30 at 15-00-17 Auto Spa" src="https://github.com/user-attachments/assets/0fb8a748-44b0-4899-8ea5-97d1b95c77dd" />
