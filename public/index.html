@@ -5,8 +5,44 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Auto Spa</title>
-    <meta name="description" content="Anytime Detailer offers 24/7 mobile car detailing and spa services in Toronto, North York, and surrounding Ontario areas. We come to you! Book your detail today.">
+    <meta name="description"
+        content="Anytime Detailer offers 24/7 mobile car detailing and spa services in Toronto, North York, and surrounding Ontario areas. We come to you! Book your detail today.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDetailing",
+      "name": "Anytime Detailer | Spa & Detailing",
+      "url": "[Your Vercel URL]",
+      "image": "images/logo.png",
+      "description": "24/7 Mobile Car Detailing and Spa Services in Toronto, North York, Ontario.",
+      "priceRange": "$$",
+      "telephone": "+1 437 545 2728",
+      "hasMap": "https://maps.google.com/maps?q=Seneca+Polytechnic,+Ontario,+Canada,+Toronto,+M2J+5G3&output=embed",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "North York",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "21:00"
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/cssgrid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/mobile.css" />
@@ -15,9 +51,11 @@
     <link rel="stylesheet" type="text/css" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800" rel="stylesheet">
+
 </head>
 
 <body>
+   
     <header class="hero">
         <div class="container">
             <div class="hero-header">
@@ -35,8 +73,8 @@
             </div>
             <div class="hero-content">
                 <h1 class="title pop-in">
-                    Auto
-                    <span class="narrow-font">Spa</span>
+                    Mobile Car Detailing 
+                    <span class="narrow-font">Toronto</span>
                 </h1>
                 <p class="desc pop-in">
                     Exclusive Car Detailing Venue
@@ -107,7 +145,7 @@
                         eco-friendly methods, all while saving you valuable time. We operate 24/7, ensuring your car is
                         clean and pristine when you need it. Schedule your detail today!
                     </p>
-                    <img src="./images/signature.png" id="signature" alt="signature" width="250px" >
+                    <img src="./images/signature.png" id="signature" alt="signature" width="250px">
                     <p class="signature">
                         General Manager
                     </p>
@@ -141,7 +179,7 @@
             </h2>
             <div class="card-deck">
                 <div class="card">
-                    <img src="images/bronze.jpeg" width="100%" alt="membership">
+                    <img src="images/bronze.jpeg" width="100%" alt="Bronze package mobile car wash service">
                     <div class="card-container">
                         <h5>
                             Bronze
@@ -152,7 +190,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/gold.jpg" width="100%" alt="membership">
+                    <img src="images/gold.jpg" width="100%" alt="Gold package full-service car detailing">
                     <div class="card-container">
                         <h5>
                             Gold
@@ -163,7 +201,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/platinum.jpeg" width="100%" alt="membership">
+                    <img src="images/platinum.jpeg" width="100%" alt="Platinum luxury car detailing service">
                     <div class="card-container">
                         <h5>
                             Platinum
