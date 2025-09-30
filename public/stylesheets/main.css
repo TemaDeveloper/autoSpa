@@ -155,7 +155,7 @@ input[type="submit"] {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/header-img.jpg");
+    url("../images/car_2.jpg");
   background-size: cover;
   min-height: 450px;
   background-position: center;
