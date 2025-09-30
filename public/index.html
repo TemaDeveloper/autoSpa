@@ -16,7 +16,7 @@
       "name": "Anytime Detailer | Spa & Detailing",
       "url": "[Your Vercel URL]",
       "image": "images/logo.png",
-      "description": "24/7 Mobile Car Detailing and Spa Services in Toronto, North York, Ontario.",
+      "description": "24/7 Mobile Car Spa Services in Toronto, North York, Ontario.",
       "priceRange": "$$",
       "telephone": "+1 437 545 2728",
       "hasMap": "https://maps.google.com/maps?q=Seneca+Polytechnic,+Ontario,+Canada,+Toronto,+M2J+5G3&output=embed",
@@ -36,7 +36,7 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Friday", "Saturday"],
-          "opens": "08:00",
+          "opens": "08:00", 
           "closes": "21:00"
         }
       ]
@@ -52,6 +52,27 @@
     <link rel="stylesheet" type="text/css" href="/assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800" rel="stylesheet">
 
+    <style>
+        .service-price {
+            font-weight: 900;
+            margin-top: 10px;
+            color: #996751; 
+            border: 2px solid #996751;
+            padding: 8px 20px;
+            border-radius: 8px; 
+            display: inline-block;
+            transition: all 0.5s ease; 
+            
+        }
+        .service-price:hover, .service-price:active {
+            color: #446e58; 
+            background-color: #e9ecef; 
+            border-color: #adb5bd; 
+            cursor: pointer;
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -61,7 +82,7 @@
             <div class="hero-header">
                 <a href="/index.html">
                     <div class="logo">
-                        <img src="images/logo.png" alt="logo">
+                        <img src="images/logo-new.png" alt="logo">
                     </div>
                 </a>
                 <div class="nav contact-menu">
@@ -73,50 +94,67 @@
             </div>
             <div class="hero-content">
                 <h1 class="title pop-in">
-                    Mobile Car Detailing 
+                    Mobile Auto Spa in 
                     <span class="narrow-font">Toronto</span>
                 </h1>
-                <p class="desc pop-in">
-                    Exclusive Car Detailing Venue
-                </p>
             </div>
         </div>
     </header>
-    <section class="yellow-bg center-content">
-        <p class="sub-title">
-            Auto Spa
-        </p>
-        <h2>
-            <span class="narrow-font">Spa </span>Advantage.
-        </h2>
+     <section class="yellow-bg center-content">
         <div class="container">
+            <p class="sub-title">
+                Choose Your Package
+            </p>
+            <h2>
+                <span class="narrow-font">Our </span>Services.
+            </h2>
+            <br></br>
             <div class="card-deck">
-                <div class="card advantage-card">
-                    <i class="fas fa-car fa-3x"></i>
-                    <h5>
-                        Car Detailing
-                    </h5>
-                    <p>
-                        Schedule Your Detail Today
-                    </p>
+                <div class="card">
+                    <img src="images/gold.jpg" width="100%" alt="Exterior car wash service">
+                    <div class="card-container" style="text-align: left; padding: 25px;">
+                        <h5>
+                           Signature Karcher 2-Step Exterior Wash
+                        </h5>
+                        <a href="#contact-section">
+                            <h4 class="service-price">$40</h4>
+                        </a>
+                        <p style="margin-top: 15px;">
+                           Restore your vehicle's shine right at your doorstep. Our core service is designed to provide a safer, more effective clean than a traditional car wash, minimizing the risk of scratches while maximizing brilliance.
+                        </p>
+                        <p><strong>Perfect for:</strong> The vehicle owner who wants a professional, scratch-free exterior clean that keeps their car's paint protected and looking its best.</p>
+                        <h6 style="margin-top: 15px;">What's Included:</h6>
+                        <ul class="triangle" style="padding-left: 20px; font-size: 0.9em;">
+                            <li><strong>Step 1: Karcher Pre-Wash Foam Bath</strong> to lift heavy dirt and grime without contact.</li>
+                            <li><strong>Step 2: Gentle Two-Bucket Contact Wash</strong> using soft microfiber mitts to prevent swirl marks.</li>
+                            <li><strong>Wheels, Tires & Wheel Wells</strong> are thoroughly cleaned to dissolve brake dust.</li>
+                            <li><strong>Gentle Hand Dry</strong> with plush microfiber towels to prevent water spots.</li>
+                            <li><strong>Tires Dressed</strong> for a clean, satin finish.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="card advantage-card">
-                    <i class="fas fa-hand-holding-usd fa-3x"></i>
-                    <h5>
-                        Membership Plans
-                    </h5>
-                    <p>
-                        Exclusive Privileges
-                    </p>
-                </div>
-                <div class="card advantage-card">
-                    <i class="fas fa-star fa-3x"></i>
-                    <h5>
-                        Elite Ambiance
-                    </h5>
-                    <p>
-                        Great Place to Network
-                    </p>
+                <div class="card">
+                    <img src="images/car-exterior.png" width="100%" alt="Complete interior and exterior car detailing">
+                    <div class="card-container" style="text-align: left; padding: 25px;">
+                        <h5>
+                            The Complete Clean: Interior & Exterior Detail
+                        </h5>
+                        <a href="#contact-section">
+                            <h4 class="service-price">$80</h4>
+                        </a>
+                        <p style="margin-top: 15px;">
+                            The ultimate package for a car that feels brand new, inside and out. This service combines our signature exterior wash with a thorough interior cleaning.
+                        </p>
+                        <p><strong>Perfect for:</strong> The client who wants that "new car" feeling. Ideal for a seasonal deep clean or preparing for a special event.</p>
+                        <h6 style="margin-top: 15px;">What's Included:</h6>
+                        <ul class="triangle" style="padding-left: 20px; font-size: 0.9em;">
+                           <li><strong>Everything from our <em>Signature Karcher 2-Step Exterior Wash</em>, PLUS:</strong></li>
+                           <li><strong>Thorough Interior Vacuum</strong> of carpets, mats, seats, and trunk.</li>
+                           <li><strong>Surface Wipe-Down</strong> of the dashboard, center console, and door panels.</li>
+                           <li><strong>Crystal-Clear Interior Glass</strong> for perfect visibility.</li>
+                           <li><strong>Final Touches</strong> to leave your car's interior fresh and inviting.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,20 +168,21 @@
                         Know More About Us
                     </p>
                     <h2>
-                        <span class="narrow-font">The </span>AnyTime Detailer
+                        <span class="narrow-font">The </span>AnyTime AutoSpa
                     </h2>
                     <div class="orange-line"></div>
                     <p>
-                        We bring the spa directly to your car! Based right here in Toronto, North York, Ontario, The
-                        AnyTime Detailer is your exclusive mobile car detailing service. Forget the rigid schedules and
-                        long lines—we come to your home, office, or designated location at a time that works for you,
-                        day or night.
+                        We're not just car washers; we're a team of enthusiastic friends with years of washing experience, 
+                        and we believe every car deserves to shine. Our passion is delivering a meticulous clean right to your doorstep. 
+                        We specialize in a professional-grade Karcher 2-step wash—a proven method that safely lifts dirt and grime, 
+                        protecting your paint and leaving a brilliant, lasting finish.   
                     </p>
                     <br>
                     <p>
-                        Our mission is simple: to provide premium, full-service car washes, waxes, and detailing using
-                        eco-friendly methods, all while saving you valuable time. We operate 24/7, ensuring your car is
-                        clean and pristine when you need it. Schedule your detail today!
+                       Forget the hassle and the queues. As your dedicated mobile crew serving Toronto and North York, 
+                       we bring our expertise and equipment to you, wherever you are. 
+                       Let our experienced team give your car the attention it deserves. 
+                       Schedule your detail today and see the difference that true passion makes!
                     </p>
                     <img src="./images/signature.png" id="signature" alt="signature" width="250px">
                     <p class="signature">
@@ -156,10 +195,10 @@
     <section class="grey-bg-content grey-bg">
         <div class="container">
             <p class="sub-title">
-                VIP Room
+                Find Us
             </p>
             <h3>
-                <span class="narrow-font">Book a private detailing session in our </span>VIP Lounge
+                <span class="narrow-font">Book a wash session in </span>Your Area
             </h3>
             <div class="orange-line"></div>
         </div>
@@ -169,51 +208,6 @@
             width="100%" height="600" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
     </div>
-    <section class="yellow-bg center-content">
-        <div class="container">
-            <p class="sub-title">
-                Auto Spa Bistro
-            </p>
-            <h2>
-                <span class="narrow-font">Spa </span>Memberships.
-            </h2>
-            <div class="card-deck">
-                <div class="card">
-                    <img src="images/bronze.jpeg" width="100%" alt="Bronze package mobile car wash service">
-                    <div class="card-container">
-                        <h5>
-                            Bronze
-                        </h5>
-                        <p>
-                            Schedule Your Detail Today
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/gold.jpg" width="100%" alt="Gold package full-service car detailing">
-                    <div class="card-container">
-                        <h5>
-                            Gold
-                        </h5>
-                        <p>
-                            Schedule Your Detail Today
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/platinum.jpeg" width="100%" alt="Platinum luxury car detailing service">
-                    <div class="card-container">
-                        <h5>
-                            Platinum
-                        </h5>
-                        <p>
-                            Schedule Your Detail Today
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="center-content">
         <div class="container">
             <div class="col-xl-12 col-12">
@@ -239,7 +233,7 @@
                     <div class="happy-customers"></div>
                     <i class="fas fa-users fa-4x"></i>
                     <h3>
-                        6000
+                        20
                     </h3>
                     <p class="sub-title">
                         Happy Customers
@@ -249,28 +243,10 @@
                     <div class="number-reviews"></div>
                     <i class="fas fa-user-edit fa-4x"></i>
                     <h3>
-                        400
+                        15
                     </h3>
                     <p class="sub-title">
                         # of Reviews
-                    </p>
-                </div>
-                <div class="col-xl-3 col-3">
-                    <i class="fas fa-star fa-4x"></i>
-                    <h3>
-                        5
-                    </h3>
-                    <p class="sub-title">
-                        Rating
-                    </p>
-                </div>
-                <div class="col-xl-3 col-3">
-                    <i class="fas fa-award fa-4x"></i>
-                    <h3>
-                        10
-                    </h3>
-                    <p class="sub-title">
-                        # of Awards
                     </p>
                 </div>
             </div>
